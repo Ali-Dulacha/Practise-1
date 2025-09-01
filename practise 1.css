@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image{
+    position: relative;
+    opacity: 50px;
+    bottom: -90px;
+    right: -20px;
+    left: 50px;
+    filter: black(90%);
+
+}
+.text{
+max-width: 320px;
+position: relative;
+left: 25px;
+top: -155px;
+font-size: 17px;
+color: black;
+
+}
+.profile{
+    width: 110px;
+    height: 110px;
+    margin: 50px auto;
+}
+.profile img{
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: -400px;
+    top: 250px;
+}
+.name{
+    position: relative;
+    left: -260px;
+    top: 170px;
+}
+.position{
+    position: relative;
+    left: -260px;
+    top: 170px;
+}
+.border{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 12px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    margin-right: 20px;
+    top: 130px;
+    left: 130px;
+    
+}
+
+.luffy {
+    max-width: 220px;
+    position: absolute;
+    padding-left: 50px;
+    top: 180px;     /* distance from top of page */
+    left: 930px;   /* distance from left of page */
+}
+.details{
+    position: relative;
+    left: -145px;
+    top: 170px;
+
+}
+.profile2.names{
+    display: flex;
+}
+.profile2.names{
+    position: relative;
+    left: 450px;
+    top: 170px;
+
+}
+.profile2 img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: -270px;
+    top: 250px;
+    size: 20px;
+
+}
